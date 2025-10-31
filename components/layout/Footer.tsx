@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4">trowresearch.ai</h3>
+            <h3 className="font-bold text-lg mb-4">KnowYourCompany.ai</h3>
             <p className="text-sm text-white/70">
               Bridging the gap from hypothesis to conviction with AI-powered research.
             </p>
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-white/70">
-            © {currentYear} trowresearch.ai. All rights reserved.
+            © {currentYear} KnowYourCompany.ai. All rights reserved.
           </p>
 
           <div className="flex space-x-6 mt-4 md:mt-0">

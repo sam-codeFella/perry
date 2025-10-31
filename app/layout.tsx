@@ -16,7 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "KnowYourCompany.ai - Bridging the gap from hypothesis to conviction",
-  description: "Transform your research workflow with AI-powered analysis that delivers comprehensive insights from multiple critical sources.",
+  description: "Accelerate your research with source-linked insights",
+  // effects the SEO - we need to really work on the entire SEO architecture.
+  // blogs & writing.
 };
 
 export default function RootLayout({

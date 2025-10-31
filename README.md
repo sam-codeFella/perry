@@ -1,6 +1,6 @@
-# Trow Research AI - Landing Page
+# KnowYourCompany.ai - Landing Page
 
-A modern, responsive landing page for Trow Research AI, built with Next.js 16, TypeScript, and Tailwind CSS. Ported from Figma design.
+A modern, responsive landing page for KnowYourCompany.ai, built with Next.js 16, TypeScript, and Tailwind CSS. Ported from Figma design.
 
 ## Features
 

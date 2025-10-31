@@ -14,7 +14,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-neutral-700 leading-relaxed">
-              Trow Agents AI stays up to date and compiles 6 different critical
+              KnowYourCompany.ai stays up to date and compiles 6 different critical
               sources needed to compile your financial thesis from investment research
               online to a firm thesis by providing insightful answers that matter.
             </p>

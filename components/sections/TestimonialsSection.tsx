@@ -4,7 +4,7 @@ import Card from '../ui/Card';
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      quote: 'Trow brings so much peace and substance to my work',
+      quote: 'KnowYourCompany.ai brings so much peace and substance to my work',
       author: 'Sarah Johnson',
       role: 'Senior Research Analyst',
       company: 'Investment Partners LLC',

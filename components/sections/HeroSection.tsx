@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../ui/Button';
 import HeroBentoGrid from '../hero/HeroBentoGrid';
 
 export default function HeroSection() {
@@ -8,24 +7,33 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-6">
-            <h1 className="text-6xl font-bold text-neutral-700 leading-tight">
-              Bridging the gap from hypothesis to conviction
-            </h1>
+          <div className="flex flex-col justify-between h-full min-h-[500px]">
+            {/* Top Section - Heading */}
+            <div>
+              <h1 className="text-6xl font-bold text-[#1a1a1a] leading-tight">
+                Bridging the gap from hypothesis to conviction
+              </h1>
+            </div>
 
-            <p className="text-lg text-neutral-700 leading-relaxed">
-              KnowYourCompany.ai stays up to date and compiles 6 different critical
-              sources needed to compile your financial thesis from investment research
-              online to a firm thesis by providing insightful answers that matter.
-            </p>
+            {/* Bottom Section - Description and CTA */}
+            <div className="flex flex-col gap-5">
+              <p className="text-xl text-[#6b6b6b] leading-relaxed">
+                Deploy Agentic AI today to track your coverage & offload manual review,
+                surface signals faster, sharpen conviction and publish alpha-generating
+                insights. Move from information overload to signal clarity
+              </p>
 
-            <div className="flex flex-row gap-4">
-              <Button variant="primary" size="lg">
-                Try it now, it&apos;s free
-              </Button>
-              <Button variant="secondary" size="lg">
-                Explore product demos
-              </Button>
+              {/* Email Input with CTA Button */}
+              <div className="bg-[#141414] h-14 rounded-[32px] pl-5 pr-2 flex items-center justify-between w-full">
+                <input
+                  type="email"
+                  placeholder="Enter your email address..."
+                  className="bg-transparent outline-none text-white placeholder:text-white/50 flex-1 text-sm"
+                />
+                <button className="bg-[#ff5c35] text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-[#ff5c35]/90 transition-colors">
+                  Get a demo
+                </button>
+              </div>
             </div>
           </div>
 
